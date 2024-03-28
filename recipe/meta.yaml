@@ -14,7 +14,7 @@ source:
     sha256: 39278f423c979688b14817fe48fc80fb7bd828fd864ded50edede302342aab60
 
 build:
-  number: 0
+  number: 1
   script:
     - GOBIN=$(go env GOBIN)  # [not win]
     - FOR /F "delims=" %%i IN ('go env GOBIN') DO set "GOBIN=%%i"  # [win]
