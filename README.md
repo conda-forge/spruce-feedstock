@@ -11,7 +11,7 @@ Summary: spruce is a general purpose YAML & JSON merging tool.
 
 Development: https://github.com/geofffranks/spruce
 
-Documentation: https://github.com/geofffranks/spruce/tree/1.31.0/doc
+Documentation: https://github.com/geofffranks/spruce/tree/1.31.1/doc
 
 Current build status
 ====================
