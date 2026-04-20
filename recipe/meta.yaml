@@ -1,5 +1,5 @@
 {% set name = "spruce" %}
-{% set version = "1.31.0" %}
+{% set version = "1.34.0" %}
 
 {% set goname = "github.com/geofffranks/" + name.lower() %}
 {% set pkg_src = ('src/'+goname).replace("/",os.sep) %}
@@ -11,7 +11,7 @@ package:
 source:
   - folder: {{ pkg_src }}
     url: https://{{ goname }}/archive/v{{ version }}.tar.gz
-    sha256: 39278f423c979688b14817fe48fc80fb7bd828fd864ded50edede302342aab60
+    sha256: 61d94f73bb1e470d8fc5daed7124992ab7c0cacb743a78ddc6e183d485dc33af
 
 build:
   number: 0
